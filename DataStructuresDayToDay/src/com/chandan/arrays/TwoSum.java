@@ -30,7 +30,7 @@ public class TwoSum {
 		    arr[i] = num;
 		}
 		int []resultArray = getIndexPosition(arr, n, target);
-		System.out.println("[" + resultArray[0] +","+ resultArray[1] +"]");
+		System.out.println("[" + resultArray[0] +" , "+ resultArray[1] +"]");
 	}
 
 	private static int[] getIndexPosition(int[] arr, int n, int target) {
